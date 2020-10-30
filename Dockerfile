@@ -12,5 +12,5 @@ COPY release-version /bin/.
 
 RUN chmod +x /bin/release-version
 
-CMD [ "node", "server.js" ]
+CMD [ "/bin/release-version" ]
 
