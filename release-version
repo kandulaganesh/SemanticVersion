@@ -1,0 +1,10 @@
+#!/bin/bash 
+
+export NODE_PATH=$NODE_PATH:${PWD}/node_modules:/app/node_modules
+branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+master="master"
+if [ "$branch" = "$master" ]; then
+  npx semantic-release
+else
+  npx semantish-prerelease
+fi
