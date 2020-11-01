@@ -29,14 +29,14 @@
    },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kandulaganesh/go-app.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kandulaganesh/go-app.git"
+    "url": ""
   },
-  "homepage": "https://github.com/kandulaganesh/go-app.git#readme",
+  "homepage": "",
   "dependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
