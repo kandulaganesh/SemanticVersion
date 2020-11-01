@@ -11,7 +11,8 @@ Generates semrel version
 
 ## Usage
 ```
-Below lines of code will generate the version file version_
+Below lines of code will generate the version file **version_**
+
 - name: version
   env:
     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
