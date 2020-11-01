@@ -10,9 +10,10 @@ Generates semrel version
 1. Github token for authentication
 
 ## Usage
-```
+
 Below lines of code will generate the version file "version_"
 
+```
 - name: version
   env:
     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
