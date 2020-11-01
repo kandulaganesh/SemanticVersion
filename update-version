@@ -1,5 +1,4 @@
 #!/bin/bash
 
 echo "Release Version is $1"
-echo Release Version again is $1
 echo "$1" > version_
