@@ -10,7 +10,11 @@ RUN npm install
 
 COPY release-version /bin/.
 
+COPY update-version /bin/.
+
 RUN chmod +x /bin/release-version
 
-CMD [ "node", "server.js" ]
+RUN chmod +x /bin/update-version
+
+CMD [ "/bin/release-version" ]
 

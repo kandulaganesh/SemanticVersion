@@ -3,8 +3,11 @@
 export NODE_PATH=$NODE_PATH:${PWD}/node_modules:/app/node_modules
 branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
 master="master"
-if [ "$branch" = "$master" ]; then
+main="main"
+cp /app/package.json ${PWD}/.
+if [ "$branch" = "$master" ] || [ "$branch" = "$main" ]; then
   npx semantic-release
 else
   npx semantish-prerelease
 fi
+rm package.json
