@@ -8,23 +8,23 @@
   },
   "private": true,
   "files": [
-  "index.js",
-  "CHANGELOG.md",
-  "package.json",
-  "update-version.sh",
-  "package-lock.json"
+     "index.js",
+     "CHANGELOG.md",
+     "package.json",
+     "update-version.sh",
+     "package-lock.json"
   ],
   "release":{
      "branches":["master","main"],
      "plugins": [
-     "@semantic-release/changelog",
-     "@semantic-release/commit-analyzer",
-     "@semantic-release/github",
-     "@semantic-release/npm",
-     "@semantic-release/release-notes-generator",
-     ["@semantic-release/exec", {
-        "prepareCmd": "/bin/update-version ${nextRelease.version}"
-      }]
+        "@semantic-release/changelog",
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/github",
+        "@semantic-release/npm",
+        "@semantic-release/release-notes-generator",
+        ["@semantic-release/exec", {
+           "prepareCmd": "/bin/update-version ${nextRelease.version}"
+        }]
      ]
    },
   "repository": {
