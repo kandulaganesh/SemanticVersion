@@ -19,3 +19,6 @@ Below lines of code will generate the version file "version_"
     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
   uses: docker://ganeshdinesh/semrelgenerator:latest
 ```
+
+## References
+1. https://github.com/semantic-release/semantic-release
