@@ -1,4 +1,4 @@
-# semantic_learning
+# SemanticVersion
 Generates semrel version for release and pre-release branches
 
 ## Prerequisites
