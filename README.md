@@ -31,7 +31,3 @@ Release branch:
 The Version is 1.0.0
 ```
 
-## Pending
-1. Reduce Image Size
-2. Optimize and clean the code
-
