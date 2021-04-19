@@ -2,7 +2,7 @@
 Generates semrel version for release and pre-release branches
 
 ## Prerequisites
-1. Github token for authentication
+1. GitHub token for authentication
 
 ## Usage
 
