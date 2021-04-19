@@ -19,3 +19,19 @@ Below lines of code will generate the version file "version_"
     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
   uses: docker://ganeshdinesh/semrelgenerator:latest
 ```
+
+## Results
+
+Version for 
+
+Pre-release branch:
+
+```
+The Version is 1.0.0-prerelease-branch.aa4d3c3
+```
+
+Release branch:
+
+```
+The Version is 1.0.0
+```
