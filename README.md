@@ -1,5 +1,5 @@
 # semantic_learning
-Generates semrel version
+Generates semrel version for release and pre-release branches
 
 
 ## Pending
