@@ -1,11 +1,6 @@
 # semantic_learning
 Generates semrel version for release and pre-release branches
 
-
-## Pending
-1. Reduce Image Size
-2. Optimize and clean the code
-
 ## Prerequisites
 1. Github token for authentication
 
@@ -35,3 +30,8 @@ Release branch:
 ```
 The Version is 1.0.0
 ```
+
+## Pending
+1. Reduce Image Size
+2. Optimize and clean the code
+
