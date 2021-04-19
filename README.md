@@ -1,5 +1,5 @@
 # SemanticVersion
-Generates semrel version for release and pre-release branches
+Generates semantic version for release and pre-release branches
 
 ## Prerequisites
 1. GitHub token for authentication
